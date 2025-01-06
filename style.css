@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.intro-container {
+    width: 100%;
+    position: relative;
+}
+
+.intro-text h1 {
+    text-align: center;
+    font-family: "Italianno", serif;
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.intro-main {
+    padding:  32px;
+    display: flex;
+}
+
+.intro-main-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-main-text-h2 {
+    padding-left: 80px;
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.intro-main-text-h1 {
+    font-family: "Inter", serif;
+    font-size:36px ;
+    font-weight: 100;
+
+}
+
+.intro-main-img {
+    width: 50%;
+    height: 709px;
+    padding-right: 75px;
+}
+.intro-main-img img{
+    margin-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+.intro-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-family: "Italiana", serif;
+    font-size: 42px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    font-weight: 100;
+}
+.upper-corner-img{
+    height: 398px;
+    width: 433px;
+    position: absolute;
+    top: -170px;
+    left: -200px;
+    z-index: -999;
+}
+.upper-corner-img img{
+    height: 100%;
+    width: 100%;
+}
+.bottom-corner-img{
+    height: 398px;
+    width: 433px;
+    position: absolute;
+    bottom: -170px;
+    left: -200px;
+    z-index: -999;
+}
+.bottom-corner-img img{
+    height: 100%;
+    width: 100%;
+}
+.story-container{
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+.story-container-heading{
+    font-family: "Italiana", serif;
+    font-size: 37px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.story-container-heading hr{
+    width: 300px;
+}
+.story-container-main{
+    display: flex;
+    justify-content: space-around;
+}
+.story-container-main-img{
+    height: 685px;
+    width: 495px;
+}
+.story-container-main-img img{
+    height: 100%;
+}
+.story-container-main-text{
+    width: 630px;
+    font-family: "Italiana", serif;
+     font-size: 32px;
+     letter-spacing: 3%;
+     line-height: 48px;
+}
+.right-bottom-corner-img{
+    width: 275px;
+    height: 263px;
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+}
+.right-bottom-corner-img img{
+    height: 100%;
+    width: 100%;
+}
+.invitation-container{
+    width: 100%;
+        padding: 64px 32px;
+        font-family: "Italiana", serif;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+}
+.invitation-container-heading{
+    font-family: "Italiana", serif;
+    font-size: 37px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.invitation-container-heading hr{
+    width: 300px;
+}
+.invitation-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 734px;
+    gap: 15px;
+    padding: 0 32px;
+
+
+}
+.invitation-cards{
+    padding: 14px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+.invitation-cards-top{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 127px;
+}
+.invitation-cards-top h2:first-child{
+    font-size: 55px;
+    font-weight: 400;
+}
+.invitation-cards-top h2:nth-child(2){
+     font-size: 35px;
+     font-weight: 400;
+}
+.invitation-cards-top h2:nth-child(3){
+    font-size: 32px;
+    font-weight: 400;
+}
+.event-time{
+    display: flex;
+    justify-content: space-between;
+}
+.invitation-cards-center{
+    text-align: center;
+}
+.right-img{
+    width: 415px;
+    height: 354px;
+    position: absolute;
+    bottom: -170px;
+    right: -200px;
+
+}
+.right-img img{
+    height: 100%;
+    width: 100%;
+}
+.invitation-cards-center{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.invitation-cards-center h2:first-child{
+    font-size: 24px;
+    font-weight: 400;
+}
+.event-time h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+.invitation-cards-bottom{
+    font-size: 18px;
+}
+.location-container{
+    padding: 32PX 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    overflow: hidden;
+}
+.loacation-container-heading {
+    font-family: "Italiana", serif;
+    font-size: 37px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.loacation-container-heading hr{
+    width: 300px;
+}
+.location-container-img{
+    height: 623px;
+    width: 100%;
+}
+.location-container-img img{
+    height: 100%;
+    width: 100%;
+}
+.location-container-venue{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family:  "Italiana", serif;
+}
+.gift-container{
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    position: relative;
+    overflow: hidden;
+}
+.gift-container-heading{
+    font-family: "Italiana", serif;
+    font-size: 37px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.gift-container-heading hr{
+    width: 300px;
+}
+.gift-container-main{
+    display: grid;
+    grid-template-columns: 587px 1fr 1fr;
+    grid-auto-rows: 426px;
+    gap: 36px;
+  
+}
+.gift-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.gift-right-img{
+    width: 415px;
+    height: 354px;
+    position: absolute;
+    bottom: -110px;
+    right: -170px;
+}
+.gift-right-img img{
+    height: 100%;
+    width: 100%;
+}
+
